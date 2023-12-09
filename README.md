@@ -1,0 +1,3 @@
+- Ongoing website project that will feature multiple pages.
+- Purpose of the website will be to provide upcoming tourists seeking travel information/hotspots in 4 different locations. Paris, Dubai, Marbella and Marrakech.
+- The website will constantly be worked on over a period of time, with an updated README file to state once it has been completed.
