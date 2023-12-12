@@ -1,0 +1,128 @@
+/* COLOURS */
+
+:root{
+    --TCOLOUR: whitesmoke;
+    --BACKGROUND: linear-gradient(rgb(91, 91, 255), whitesmoke);
+    --BUTTON-RELAXED: rgb(255, 255, 255);
+    --BUTTON-HOVER: rgb(220, 220, 220);
+    --FORM-BG: rgba(245, 245, 245, 0.642);
+
+}
+
+/* SIZE */
+
+html{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BACKGROUND-COLOUR */
+
+body{
+    background-image: var(--BACKGROUND);
+}
+
+/* STYLING */
+
+h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 20px;
+    color: var(--TCOLOUR);
+}
+
+h3{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+p{
+    color: var(--TCOLOUR);
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.contact-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    gap: 0.25rem;
+    padding-bottom: 20px;
+    border-color: transparent;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 600px;
+    background-color: var(--FORM-BG);
+    box-shadow: 1px 4px 10px;
+}
+input{
+    width: 90%;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 4px;
+    text-align: center;
+}
+
+legend{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: large;
+}
+
+.form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    margin-bottom: 15px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--BUTTON-RELAXED);
+    font-size: medium;
+}
+
+button:hover{
+    background-color: var(--BUTTON-HOVER);
+    cursor: pointer;
+}
