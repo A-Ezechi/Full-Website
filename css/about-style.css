@@ -1,0 +1,137 @@
+/* COLOURS */
+
+/* RESET */
+
+html{
+    height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 70vh;
+    background-image: url(/img/pexels-sevenstorm-juhaszimrus-443383.jpg);
+    background-size: cover;
+}
+
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.513);
+}
+
+nav{
+    width: 80vw;
+    display: flex;
+    justify-content: end;
+    gap: 20rem;
+    margin-top: 2rem;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.nav-button{
+    color: rgb(255, 255, 255);
+}
+
+.nav-button:hover{
+    color: brown;
+}
+
+h2{
+    margin-top: 2rem;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.about-us{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    margin-top: 57.5vh;
+    background-color: rgba(128, 128, 128, 0.513);
+}
+
+/* MAIN BODY */
+
+.outer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.container{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    width: 60vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 3px 2px 3px;
+}
+
+h1{
+    font-style: oblique;
+    margin-left: 1rem;
+    font-size: 45px;
+    width: 100%;
+    text-align: center;
+    color: brown;
+}
+
+.story-text{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+.text{
+    font-size: 30px;
+    color: brown;
+}
+
+/* EXPLORE BUTTON */
+
+.explore{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(white,brown);
+    outline: 1px solid black;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+}
