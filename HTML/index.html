@@ -14,24 +14,34 @@
             <nav>
                 <a href="contact us.html">Contact Us</a>
                 <a href="about us.html">About Us</a>
-                <a href="subscribe.html">Subscribe</a>
             </nav>
 
         </header>
         <div class="outer-container">
         <div class="container">
-        <main>
 
             <div class="headline">
                 <h1>Welcome To Paradise</h1>
                 <div class="htext-container">
-                    <p class="headline-text">The purpose of this test website is to replicate a suitable location for tourist to refer to when looking for popular tourist sites to visit. Please feel free to go ahead and test the functionality of this website.</p>
+                    <p class="headline-text">Please pick your destination on the left</p>
                 </div>
-                <button>Explore</button>
+
+                <p class="subscribe">Want early access to countless discounts? Subscribe below</p>
+
+                <form action="tester.com" method="post">
+
+                <div class="subscription">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="e" placeholder="Please enter your Email Address" required>
+                </div>
+
+                <button type="submit" onclick="
+                    alert('Thank you for Subscribing')
+                ">Subscribe</button>
+                
+                </form>
             </div>
 
-            
-                </main>
             </div>
             
             <div class="innercontainer">
