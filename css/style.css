@@ -89,6 +89,8 @@ a:hover{
     margin-bottom: 2rem;
     font-size: larger;
     color: whitesmoke;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 input{
