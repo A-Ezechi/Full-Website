@@ -62,6 +62,7 @@ nav{
 
 .dropdown:hover .contents{
     display: block;
+    
 }
 
 .contents a{
